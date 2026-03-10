@@ -12,6 +12,13 @@ The system uses **OpenAI** (GPT-4o-mini) when an API key is available and falls 
 
 ---
 
+## Demo
+
+Watch a short demo of the API in action:  
+https://youtu.be/rp05D_FTjn4
+
+---
+
 ## Business Problem
 
 Tattoo artists and studios often receive vague or fragmented messages from potential clients. Inquiries like *"I want something for my mom"* or *"maybe a small one on my wrist"* lack:
