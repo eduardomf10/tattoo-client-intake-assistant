@@ -14,8 +14,7 @@ The system uses **OpenAI** (GPT-4o-mini) when an API key is available and falls 
 
 ## Demo
 
-Watch a short demo of the API in action:  
-https://youtu.be/rp05D_FTjn4
+[![Demo Video](https://img.shields.io/badge/▶_Demo_Video-YouTube-red?style=for-the-badge&logo=youtube)](https://youtu.be/rp05D_FTjn4)
 
 ---
 
