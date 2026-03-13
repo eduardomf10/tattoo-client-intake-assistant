@@ -2,6 +2,8 @@
 
 **REST API** that structures and qualifies incoming messages from tattoo studio clients. Built with **FastAPI**, **SQLAlchemy**, and **OpenAI**, with a rule-based fallback for reliability.
 
+[![Demo Video](https://img.shields.io/badge/▶_Demo_Video-YouTube-red?style=for-the-badge&logo=youtube)](https://youtu.be/rp05D_FTjn4)
+
 ---
 
 ## Project Overview
@@ -9,12 +11,6 @@
 The Tattoo Client Intake Assistant is a backend service that turns unstructured client messages (e.g. *"hey want something cool on my arm"*) into structured intake data. It extracts tattoo idea, style, placement, size, color preference, and request type (text-only, illustrative, cover-up); detects missing information; and suggests follow-up questions so artists can respond quickly and consistently. Each analyzed message is stored as a **lead** with a configurable status workflow.
 
 The system uses **OpenAI** (GPT-4o-mini) when an API key is available and falls back to **rule-based extraction** when the API is unavailable, so intake keeps working offline or without external services.
-
----
-
-## Demo
-
-[![Demo Video](https://img.shields.io/badge/▶_Demo_Video-YouTube-red?style=for-the-badge&logo=youtube)](https://youtu.be/rp05D_FTjn4)
 
 ---
 
